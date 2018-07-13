@@ -11,11 +11,12 @@ end
   
 attr_accessor :artists, :genres
   
-def self.count
+  def self.count
   @@count
 end
 
 
-def genres.count
-end
+  def genres.count
+    
+  end
 end
