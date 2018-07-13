@@ -18,4 +18,4 @@ end
 
 end
 
-hit_me = Song.new("Hit Me Baby One More Time", "Brittany Spears", "Pop")
+hit_me = Song.new("Hit Me Baby One More Time", "Brittany Spears", "pop")
