@@ -30,8 +30,9 @@ end
  
 def self.genre_count
   @@genres = Hash.new(0)
-  @genres.each do |word|
-  counts[word] += 1
+  @genres.each do |genre|
+    counts[genre] += 1
+  end
 end
 
 end
