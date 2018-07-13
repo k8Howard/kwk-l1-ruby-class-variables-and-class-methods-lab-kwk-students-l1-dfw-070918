@@ -23,3 +23,5 @@ attr_accessor :name, :artist, :genre
 end
 
 hit_me = Song.new("Hit Me Baby One More Time", "Brittany Spears", "pop")
+
+lucifer = Song.new("Lucifer", "Jay-Z", "rap" )
