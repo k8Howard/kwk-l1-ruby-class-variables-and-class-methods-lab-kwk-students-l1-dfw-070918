@@ -25,3 +25,5 @@ end
 hit_me = Song.new("Hit Me Baby One More Time", "Brittany Spears", "pop")
 
 lucifer = Song.new("Lucifer", "Jay-Z", "rap" )
+
+niney_nine_problems = Song.new("99 Problems", "Jay-Z", "rap")
