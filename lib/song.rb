@@ -28,9 +28,10 @@ end
     @@count
   end
  
-counts = Hash.new(0)
-  { |name| counts[name] += 1 }
+@@genres = Hash.new(0)
+  { |genre| @@genres[genre] += 1 }
 end
+
 end
 
 hit_me = Song.new("Hit Me Baby One More Time", "Brittany Spears", "pop")
