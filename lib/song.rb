@@ -15,8 +15,4 @@ attr_accessor :artists, :genres
   @@count
 end
 
-
-  def genres.count
-    
-  end
 end
