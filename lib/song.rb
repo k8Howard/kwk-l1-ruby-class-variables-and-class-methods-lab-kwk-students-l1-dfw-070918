@@ -1,15 +1,15 @@
 
-class Song
+class Song  #make class
 
-@@count=0
-@@artists = [] 
-@@genres = []
+@@count=0  #sets count of total number to songs to 0
+@@artists = []  #puts all of the artist in an array
+@@genres = [] #puts all of the genres in an array
  def initialize (name, artist, genre)
   @name = name
   @artist = artist
   @genre = genre
   @@count += 1 
-  @@artists << artist
+  @@artists << artist  #puts all of the artists in array
   @@genres << genre
 end
   
