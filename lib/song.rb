@@ -17,7 +17,7 @@ attr_accessor :name, :artist, :genre
   end
   
   def self.artists
-    @@artists
+    @@artists = @artist
   end
 
 end
