@@ -28,7 +28,8 @@ end
     @@count
   end
  
-@@genres = Hash.new(0)
+def self.genre_count
+  @@genres = Hash.new(0)
   { |genre| @@genres[genre] += 1 }
 end
 
