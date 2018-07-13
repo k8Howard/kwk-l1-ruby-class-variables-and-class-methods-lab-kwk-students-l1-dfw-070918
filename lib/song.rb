@@ -27,7 +27,11 @@ end
   def self.count
     @@count
   end
-  
+ 
+@@genre_count = Hash.new 0
+  words.each do |word|
+  counts[word] += 1
+end 
 
 end
 
