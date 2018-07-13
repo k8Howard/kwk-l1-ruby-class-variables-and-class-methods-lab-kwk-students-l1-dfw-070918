@@ -29,10 +29,9 @@ end
   end
  
 @@genre_count = Hash.new 0
-  words.each do |word|
-  counts[word] += 1
-end 
-
+  @@genres.each do |genre|
+  counts[genre] += 1
+end
 end
 
 hit_me = Song.new("Hit Me Baby One More Time", "Brittany Spears", "pop")
