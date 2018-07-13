@@ -8,29 +8,29 @@ class Song  #make class
   @name = name
   @artist = artist
   @genre = genre
-  @@count += 1 
+  @@count += 1  #increases count by one every time new song is added
   @@artists << artist  #puts all of the artists in array
-  @@genres << genre
+  @@genres << genre #puts all of the genres in an array
 end
   
-attr_accessor :name, :artist, :genre
+attr_accessor :name, :artist, :genre #setter and getters
 
 def self.artists
-  @@artists.uniq
+  @@artists.uniq  #returns array with unique artist
 end
 
 def self.genres
-  @@genres.uniq
+  @@genres.uniq #returns array with unique genres
 end
   
   def self.count
     @@count
   end
  
-def self.genre_count
-  genre_count = Hash.new(0)
-  @@genres.each do |genre|
-    genre_count[genre] += 1
+def self.genre_count  #method to count occurrences of genres
+  genre_count = Hash.new(0)  #make new hash where key = genre and value = # of occurrences
+  @@genres.each do |genre|  #label each elements as genre
+    genre_count[genre] += 1  #every time new genre, add 1
   end
   return genre_count
 end
