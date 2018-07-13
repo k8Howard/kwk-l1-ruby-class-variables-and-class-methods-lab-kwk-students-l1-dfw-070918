@@ -30,7 +30,7 @@ end
  
 @@genres = Hash.new(0)
   @@genres.each do |genre|
-  counts[genre] += 1
+  { |name| counts[name] += 1 }
 end
 end
 
